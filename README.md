@@ -14,7 +14,7 @@ All GUI components are custom-built. SDL2 provides low-level access to I/O and g
 
 ### Features:
 * Verbose mode (see bottom right screenshot). Provides error printouts when expression evaluation fails
-* Works with decimal values (but negative numbers... yet)
+* Works with decimal values (but not negative numbers... yet)
 * Clipboard integration. Textbox input supports select-all, cut, copy, and paste operations. Output display supports select-all and copy
 
 ### Screenshots:
