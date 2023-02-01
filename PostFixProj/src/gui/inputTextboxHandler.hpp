@@ -12,11 +12,11 @@ using namespace std;
         scrolling, cpy/pst and a simple select (only works with select all) to work xD The following ~550 lines of code are purely original 
         (no stack overflowing, only SDL and C++ documentation) ;)
 
-        Also, also note that this code is somewhat messily written. Some of the scroll support code could technically be compartmentalised and reused
+        Also, note that this code is somewhat messily written. Some of the scroll support code could technically be compartmentalised and reused
         But at this point that would create more headaches for the programmer than it would solve for the processor. Additionally each piece of scroll code
         is not used more than 2-3 times, so I don't think putting them in functions would be that useful
 
-        /Jack
+        /Jack		<- Dang, grade 10 jack was cringe (/Jack from 2023)
  
 */
 
