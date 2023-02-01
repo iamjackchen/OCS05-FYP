@@ -12,14 +12,15 @@ The stack is implemented as a dynamically allocated array whose length adjusts t
 
 All GUI components are custom-built. SDL2 provides low-level access to I/O and graphics hardware; it is not a GUI library per se, so it doesn't have a built-in UI components. Building buttons with hover effects was fairly simple. More notably, I built my own [textbox component](https://github.com/iamjackchen/OCS05-FYP/blob/main/PostFixProj/src/gui/inputTextboxHandler.hpp) that calculates substring render widths (using elementary arithmetic) in order to handle cursor positioning, and support text wrapping and selection.
 
-<br/>
 
-#### Features:
+### Features:
+
 * Verbose mode (see bottom right screenshot). Provides error printouts when expression evaluation fails
 * Works with decimal values (but negative numbers... yet)
 * Clipboard integration. Textbox input supports select-all, cut, copy, and paste operations. Output display supports select-all and copy
 
-#### Screenshots:
+
+### Screenshots:
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/StartPage.png" width="49%" />
   <img align="center"  src="https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/MainPage.png" width="49%" /> 
