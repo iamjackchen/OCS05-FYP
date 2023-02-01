@@ -9,7 +9,7 @@ This app evaluates post-fix expressions by means of a stack. The program iterate
 
 The stack is implemented as a dynamically allocated array whose length adjusts throughout runtime for memory efficiency.
 
-All GUI components are custom-built. SDL2 provides low-level access to I/O and graphics hardware; it is not a GUI library per se, so it doesn't have a built-in UI components. Building buttons with a hover effect was fairly simple. More notably, I built my own [textbox component](https://github.com/iamjackchen/OCS05-FYP/blob/main/PostFixProj/src/gui/inputTextboxHandler.hpp) that calculates substring render widths (using elementary arithmetic) in order to handle cursor positioning and support text wrapping and selection.
+All GUI components are custom-built. SDL2 provides low-level access to I/O and graphics hardware; it is not a GUI library per se, so it doesn't have built-in UI components. Building buttons with a hover effect was fairly simple. More notably, I built my own [textbox component](https://github.com/iamjackchen/OCS05-FYP/blob/main/PostFixProj/src/gui/inputTextboxHandler.hpp) that calculates substring render widths (using elementary arithmetic) in order to handle cursor positioning and support text wrapping and selection.
 
 
 ### Features:
