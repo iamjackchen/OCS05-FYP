@@ -30,7 +30,7 @@ All GUI components are custom-built. SDL2 provides low-level access to I/O and g
   <img  align="center"  src="https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/Verbose.png" width="49%" /> 
 </p>
 
-![](https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/InputTextbox.png)
+![](https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/InputTextbox.gif)
 
 
   
