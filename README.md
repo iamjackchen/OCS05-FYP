@@ -62,7 +62,7 @@ You must have g++ installed. This can be done through a package manager on \*NIX
 
 ##### \*NIX Users:
 * You must have [SDL2](https://wiki.libsdl.org/SDL2/FrontPage), [SDL2_image](https://wiki.libsdl.org/SDL_image/FrontPage), and [SDL2_ttf](https://wiki.libsdl.org/SDL2/FrontPage) installed. This can be done through a package manager on \*NIX systems.
-* From the PostFixProj directory, run `g++ main.cpp -SDL2 -lSDL2_image -lSDL2_ttf`
+* From the TicTacToe directory, run `g++ main.cpp -SDL2 -lSDL2_image -lSDL2_ttf`
 
 ##### Windows Users:
 * I have included all the necessary SDL2 files within the directory, so there is no further action needed
