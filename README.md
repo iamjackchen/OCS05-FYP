@@ -1,10 +1,4 @@
-# 
-
-
-
-
-
-(C++) FYP
+# OCS10 (C++) FYP
 
 This is my final year project for Programming in C++ (OCS10), taken in 2019-2020. The project consists of two parts: a [post-fix expression evaluator](https://github.com/iamjackchen/OCS10-FYP/blob/main/README.md#postfix-expression-evaluator), and an [unbeatable tic-tac-toe game](https://github.com/iamjackchen/OCS10-FYP/blob/main/README.md#unbeatable-tic-tac-toe). As an additional side challenge I built a custom GUI for both parts using SDL2 and my amateurish photoshop skills. 
 
