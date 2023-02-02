@@ -56,8 +56,9 @@ This app allows the user to play tic-tac-toe against a computer. The computer us
  * The first event on the highest-scoring event path is the move that will be played by the computer.
 
 ### Alpha-Beta Pruning
- * Minimax tends to be a very computationally intensive algorithm since it brute-forces every possible outcome. To optimise things a little, I implemented alpha-beta pruning on the recursive tree of minimax calls. 
- * We do not need to compute every singular possible leaf on this tree-- in fact, given a choice of moves, if we know that a move will be definitely worse than a previously considered move, then we need not consider this move (and any possible succeeding moves) at all. 
+ *  Minimax tends to be very computationally intensive since it brute-forces every possible outcome. To optimise things a little, I implemented alpha-beta pruning on the recursive tree of minimax calls. 
+ * We do not need to compute every singular possible leaf on this tree
+ * Given a choice of moves, if we know that a move will be definitely worse than a previously considered move, then we need not consider this move (and any possible succeeding moves) at all
  * Alpha-beta pruning allows us to "prune" away some parts of the recursive tree, so we avoid computing event paths that cannot influence the final decision of what move to play.
 
 ### Demo:
