@@ -40,7 +40,7 @@ You must have g++ installed. This can be done through a package manager on \*NIX
 
 ##### Windows Users:
 * I have included all the necessary SDL2 files within the directory, so there is no further action needed
-* From the PostFixProj directory, run `g++ main.cpp -I.\SDL2\include -L.\SDL2\lib -w  -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -o main.exe`
+* From the PostFixProj directory, run `g++ src\main.cpp -I.\SDL2\include -L.\SDL2\lib -w  -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -o main.exe`
 * There is a pre-compiled main.exe executable 
 
 
