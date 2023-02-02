@@ -17,6 +17,7 @@ All GUI components are custom-built. SDL2 provides low-level access to I/O and g
 * Works with decimal values (but not negative numbers... yet)
 * Clipboard integration. Textbox input supports select-all, cut, copy, and paste operations. Output display supports select-all and copy
 
+
 ### Screenshots:
 <p align="center">
   <img align="center" src="https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/StartPage.png" width="49%" />
@@ -29,6 +30,19 @@ All GUI components are custom-built. SDL2 provides low-level access to I/O and g
 </p>
 
 ![](https://raw.githubusercontent.com/iamjackchen/OCS05-FYP/main/PostFixProj/Screenshots/InputTextbox.gif)
+
+### Build/Installation Instructions:
+You must have g++ installed. This can be done through a package manager on \*NIX systems. Windows users can use [MinGW](https://www.mingw-w64.org).
+
+##### \*NIX Users:
+* You must have [SDL2](https://wiki.libsdl.org/SDL2/FrontPage), [SDL2_image](https://wiki.libsdl.org/SDL_image/FrontPage), and [SDL2_ttf](https://wiki.libsdl.org/SDL2/FrontPage) installed. This can be done through a package manager on \*NIX systems.
+* From the PostFixProj directory, run `g++ main.cpp -SDL2 -lSDL2_image -lSDL2_ttf`
+
+##### Windows Users:
+* I have included all the necessary SDL2 files within the directory, so there is no further action needed
+* From the PostFixProj directory, run `g++ main.cpp -I.\SDL2\include -L.\SDL2\lib -w  -lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf -o main.exe`
+* There is a pre-compiled main.exe executable 
+
 
 
   
